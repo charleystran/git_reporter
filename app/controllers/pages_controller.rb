@@ -12,7 +12,7 @@ class PagesController < ApplicationController
   private
 
   def set_octokit
-    @client ||= Octokit::Client.new(access_token: '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')
+    @client ||= Octokit::Client.new(access_token: '')
   end
 
   def filter_pull_requests
