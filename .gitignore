@@ -71,3 +71,6 @@ modules/**/Gemfile.lock
 
 # Ignore JetBrains ide files
 .idea
+
+# Ignore application configuration
+/config/application.yml
